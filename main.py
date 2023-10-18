@@ -12,7 +12,7 @@ try:
 except ModuleNotFoundError:
     os.system("pip install requests")
     os.system("pip install ctypes")
-    os.system("pip install colore")
+    os.system("pip install colored")
     os.system("pip install otertools")
     os.system("pip install multiprocessing.spawn")
     os.system("pip install pystyle")
